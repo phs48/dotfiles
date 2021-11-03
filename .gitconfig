@@ -2,8 +2,6 @@
 	email = peter.hicks@space48.com
 	name = Peter Hicks
 	signingkey = 39676AA1F7CC6FFA
-[commit]
-	gpgsign = true
 [core]
 	excludesfile = /Users/ehi/.gitignore_global
 [init]
