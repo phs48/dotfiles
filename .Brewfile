@@ -1,19 +1,26 @@
 tap "homebrew/core"
+tap "ankitpokhrel/jira-cli"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "shopify/shopify"
 brew "asdf"
+brew "bat" # fancy 'cat' replacement
+brew "exa" # fancy 'ls' replacement
 brew "fish"
+brew "fd" # fancy 'find' replacement
+brew "fzf"
 brew "gawk" # required by asdf node.js plugin
 brew "gh"
 brew "git"
 brew "gnupg"
 brew "htop"
+brew "jira-cli"
 brew "mas"
 brew "ruby" # required by shopify-cli
 brew "shopify-cli"
+brew "terraform"
 brew "vercel-cli"
 brew "yadm"
 cask "1password"

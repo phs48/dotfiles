@@ -15,11 +15,17 @@ printf "\n${YELLOW}Cleaning up Homebrew...${NC}\n"
 brew cleanup
 brew doctor
 
+printf "\n${YELLOW}Updating Fisher...${NC}\n"
+fisher update
+
 printf "\n${YELLOW}Updating asdf plugins...${NC}\n"
 asdf plugin update --all
 
 printf "\n${YELLOW}Updating Node and Yarn...${NC}\n"
+asdf install nodejs $(asdf latest nodejs 12)
 asdf install nodejs $(asdf latest nodejs 14)
+asdf install nodejs $(asdf latest nodejs 16)
+
 asdf global nodejs $(asdf latest nodejs 14)
 
 asdf install yarn $(asdf latest yarn)
