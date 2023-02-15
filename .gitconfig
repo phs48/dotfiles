@@ -4,5 +4,15 @@
 	signingkey = 39676AA1F7CC6FFA
 [core]
 	excludesfile = /Users/ehi/.gitignore_global
+	editor = nvim
 [init]
 	defaultBranch = master
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/local/bin/gh auth git-credential
+[includeIf "gitdir:~/BTS/"]
+  path = ~/BTS/.gitconfig-bts
+
