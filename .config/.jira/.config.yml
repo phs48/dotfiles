@@ -1,0 +1,59 @@
+board:
+  id: 19
+  name: Black Squadron Backlog (BS)
+  type: scrum
+config: ""
+debug: false
+epic:
+  field: customfield_10009
+installation: Cloud
+issue:
+  types:
+  - id: "1"
+    name: Support
+    subtask: false
+  - id: "10500"
+    name: Task
+    subtask: false
+  - id: "5"
+    name: Sub-task
+    subtask: true
+  - id: "10200"
+    name: Epic
+    subtask: false
+  - id: "11201"
+    name: New Feature
+    subtask: false
+  - id: "11202"
+    name: Bug
+    subtask: false
+  - id: "11331"
+    name: Story
+    subtask: false
+  - id: "11340"
+    name: Improvement
+    subtask: false
+  - id: "11347"
+    name: Design Task
+    subtask: false
+  - id: "11348"
+    name: Test
+    subtask: false
+  - id: "11349"
+    name: Test Set
+    subtask: false
+  - id: "11350"
+    name: Test Plan
+    subtask: false
+  - id: "11351"
+    name: Test Execution
+    subtask: false
+  - id: "11352"
+    name: Precondition
+    subtask: false
+  - id: "11353"
+    name: Sub Test Execution
+    subtask: true
+login: peter.hicks@space48.com
+project: S48
+server: https://space48.atlassian.net/

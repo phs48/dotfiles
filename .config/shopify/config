@@ -1,0 +1,9 @@
+[versioncheck]
+last_checked_at = 1665480637
+latest_version = 2.27.0
+
+[analytics]
+enabled = false
+
+[features]
+shopifolk = false

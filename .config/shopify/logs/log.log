@@ -1,0 +1,592 @@
+Content-Length: 865
+
+{"id":0,"result":{"capabilities":{"completionProvider":{"triggerCharacters":[".","{{ ","{% "],"context":true},"codeActionProvider":{"codeActionKinds":["quickfix","source.fixAll"],"resolveProvider":false,"workDoneProgress":false},"documentLinkProvider":true,"executeCommandProvider":{"workDoneProgress":false,"commands":["correction","runChecks"]},"textDocumentSync":{"openClose":true,"change":1,"willSave":false,"save":true},"workspace":{"fileOperations":{"didCreate":{"filters":[{"scheme":"file","pattern":{"glob":"**/*"}}]},"didDelete":{"filters":[{"scheme":"file","pattern":{"glob":"**/*"}}]},"willRename":{"filters":[{"scheme":"file","pattern":{"glob":"**/*"}}]}}}},"serverInfo":{"name":"/usr/local/Cellar/shopify-cli/3.40.2/libexec/lib/node_modules/@shopify/theme/node_modules/@shopify/cli-kit/assets/cli-ruby/bin/shopify","version":"1.14.0"}},"jsonrpc":"2.0"}Content-Length: 239
+
+{"id":1,"method":"workspace/configuration","params":{"items":[{"section":"themeCheck.checkOnOpen"},{"section":"themeCheck.checkOnSave"},{"section":"themeCheck.checkOnChange"},{"section":"themeCheck.onlySingleFileChecks"}]},"jsonrpc":"2.0"}Content-Length: 176
+
+{"id":2,"method":"client/registerCapability","params":{"registrations":[{"id":"workspace/didChangeConfiguration","method":"workspace/didChangeConfiguration"}]},"jsonrpc":"2.0"}Content-Length: 87
+
+{"id":3,"method":"window/workDoneProgress/create","params":{"token":2},"jsonrpc":"2.0"}Content-Length: 36
+
+{"id":1,"result":[],"jsonrpc":"2.0"}Content-Length: 36
+
+{"id":2,"result":[],"jsonrpc":"2.0"}Content-Length: 147
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"begin","title":"Full theme check","cancellable":false,"percentage":0}},"jsonrpc":"2.0"}Checking /Users/ehi/Code/webapp
+Content-Length: 164
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"0/285 apps/checkout/bower.json","cancellable":false,"percentage":0}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"1/285 apps/checkout/build/auto-loader.a998bb8a8af37011fc90.hot-update.json","cancellable":false,"percentage":0}},"jsonrpc":"2.0"}Content-Length: 203
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"2/285 apps/checkout/build/loader.a998bb8a8af37011fc90.hot-update.json","cancellable":false,"percentage":0}},"jsonrpc":"2.0"}Content-Length: 173
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"3/285 apps/checkout/build/manifest.json","cancellable":false,"percentage":1}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"4/285 apps/checkout/build/runtime.086cb5809f63ed9a7140.hot-update.json","cancellable":false,"percentage":1}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"5/285 apps/checkout/build/runtime.0acef24892af892277c0.hot-update.json","cancellable":false,"percentage":1}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"6/285 apps/checkout/build/runtime.148b721417e8ab048608.hot-update.json","cancellable":false,"percentage":2}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"7/285 apps/checkout/build/runtime.1cb639a7581c9f2fa711.hot-update.json","cancellable":false,"percentage":2}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"8/285 apps/checkout/build/runtime.1cc8af19de5ded971340.hot-update.json","cancellable":false,"percentage":2}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"9/285 apps/checkout/build/runtime.1cce0d174712e6ad2bac.hot-update.json","cancellable":false,"percentage":3}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"10/285 apps/checkout/build/runtime.21aa5083b86a2882ee48.hot-update.json","cancellable":false,"percentage":3}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"11/285 apps/checkout/build/runtime.227d2b1157d797efc32c.hot-update.json","cancellable":false,"percentage":3}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"12/285 apps/checkout/build/runtime.2d7c3e6c07c9552dbe14.hot-update.json","cancellable":false,"percentage":4}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"13/285 apps/checkout/build/runtime.3a4097cfb0e80f4d9720.hot-update.json","cancellable":false,"percentage":4}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"14/285 apps/checkout/build/runtime.3cfb162a6ded43971cdf.hot-update.json","cancellable":false,"percentage":4}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"15/285 apps/checkout/build/runtime.3eee826e8758e0c1fedb.hot-update.json","cancellable":false,"percentage":5}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"16/285 apps/checkout/build/runtime.4bb09aa84c7c5a9e348e.hot-update.json","cancellable":false,"percentage":5}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"17/285 apps/checkout/build/runtime.537f09d98a540d9c2b8c.hot-update.json","cancellable":false,"percentage":5}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"18/285 apps/checkout/build/runtime.57f7179191f7a9761a6e.hot-update.json","cancellable":false,"percentage":6}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"19/285 apps/checkout/build/runtime.59f253d886a8f3b344b3.hot-update.json","cancellable":false,"percentage":6}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"20/285 apps/checkout/build/runtime.5b8e59cf698bef8d8659.hot-update.json","cancellable":false,"percentage":7}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"21/285 apps/checkout/build/runtime.5ce2e82bdcb02f2f8456.hot-update.json","cancellable":false,"percentage":7}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"22/285 apps/checkout/build/runtime.698de239aabfe2c7fe75.hot-update.json","cancellable":false,"percentage":7}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"23/285 apps/checkout/build/runtime.774e9381025afb71abfa.hot-update.json","cancellable":false,"percentage":8}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"24/285 apps/checkout/build/runtime.77eb9a235c1899f97f76.hot-update.json","cancellable":false,"percentage":8}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"25/285 apps/checkout/build/runtime.79662690dd55d76dd718.hot-update.json","cancellable":false,"percentage":8}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"26/285 apps/checkout/build/runtime.79bcb0892ef4b6dfff32.hot-update.json","cancellable":false,"percentage":9}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"27/285 apps/checkout/build/runtime.7b7ea1d40c0ad698ca73.hot-update.json","cancellable":false,"percentage":9}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"28/285 apps/checkout/build/runtime.9150235f3b6a6c48abdc.hot-update.json","cancellable":false,"percentage":9}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"29/285 apps/checkout/build/runtime.93320104aaf43372c731.hot-update.json","cancellable":false,"percentage":10}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"30/285 apps/checkout/build/runtime.9b44120b4da6ffde91bf.hot-update.json","cancellable":false,"percentage":10}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"31/285 apps/checkout/build/runtime.a67db423025cd5e37376.hot-update.json","cancellable":false,"percentage":10}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"32/285 apps/checkout/build/runtime.b872123c1e61623ab8e8.hot-update.json","cancellable":false,"percentage":11}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"33/285 apps/checkout/build/runtime.c613ad7d67972afc208a.hot-update.json","cancellable":false,"percentage":11}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"34/285 apps/checkout/build/runtime.d1266dd2643086c63afc.hot-update.json","cancellable":false,"percentage":11}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"35/285 apps/checkout/build/runtime.d13993be162b809d5bc3.hot-update.json","cancellable":false,"percentage":12}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"36/285 apps/checkout/build/runtime.d443b784f73fac70c5a5.hot-update.json","cancellable":false,"percentage":12}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"37/285 apps/checkout/build/runtime.d4a5ec122ecf0dc736ae.hot-update.json","cancellable":false,"percentage":12}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"38/285 apps/checkout/build/runtime.d5b797d655fb523c1bc9.hot-update.json","cancellable":false,"percentage":13}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"39/285 apps/checkout/build/runtime.d7b0ba441d03b1ad8b25.hot-update.json","cancellable":false,"percentage":13}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"40/285 apps/checkout/build/runtime.d89d4132060e1f3cbff3.hot-update.json","cancellable":false,"percentage":14}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"41/285 apps/checkout/build/runtime.f5d0bc1ce9d9f3b2adf4.hot-update.json","cancellable":false,"percentage":14}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"42/285 apps/checkout/build/runtime.fb465afcd18c939f9ce4.hot-update.json","cancellable":false,"percentage":14}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"43/285 apps/checkout/build/runtime.fe1490a820129d57b721.hot-update.json","cancellable":false,"percentage":15}},"jsonrpc":"2.0"}Content-Length: 178
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"44/285 apps/checkout/commit-validation.json","cancellable":false,"percentage":15}},"jsonrpc":"2.0"}Content-Length: 179
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"45/285 apps/checkout/devServer.tsconfig.json","cancellable":false,"percentage":15}},"jsonrpc":"2.0"}Content-Length: 163
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"46/285 apps/checkout/nx.json","cancellable":false,"percentage":16}},"jsonrpc":"2.0"}Content-Length: 168
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"47/285 apps/checkout/package.json","cancellable":false,"percentage":16}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"48/285 apps/checkout/packages/afterpay-integration/project.json","cancellable":false,"percentage":16}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"49/285 apps/checkout/packages/afterpay-integration/tsconfig.json","cancellable":false,"percentage":17}},"jsonrpc":"2.0"}Content-Length: 203
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"50/285 apps/checkout/packages/afterpay-integration/tsconfig.lib.json","cancellable":false,"percentage":17}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"51/285 apps/checkout/packages/afterpay-integration/tsconfig.spec.json","cancellable":false,"percentage":17}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"52/285 apps/checkout/packages/analytics/project.json","cancellable":false,"percentage":18}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"53/285 apps/checkout/packages/analytics/tsconfig.json","cancellable":false,"percentage":18}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"54/285 apps/checkout/packages/analytics/tsconfig.lib.json","cancellable":false,"percentage":18}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"55/285 apps/checkout/packages/analytics/tsconfig.spec.json","cancellable":false,"percentage":19}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"56/285 apps/checkout/packages/apple-pay-integration/project.json","cancellable":false,"percentage":19}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"57/285 apps/checkout/packages/apple-pay-integration/tsconfig.json","cancellable":false,"percentage":20}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"58/285 apps/checkout/packages/apple-pay-integration/tsconfig.lib.json","cancellable":false,"percentage":20}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"59/285 apps/checkout/packages/apple-pay-integration/tsconfig.spec.json","cancellable":false,"percentage":20}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"60/285 apps/checkout/packages/checkout-button-integration/project.json","cancellable":false,"percentage":21}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"61/285 apps/checkout/packages/checkout-button-integration/tsconfig.json","cancellable":false,"percentage":21}},"jsonrpc":"2.0"}Content-Length: 210
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"62/285 apps/checkout/packages/checkout-button-integration/tsconfig.lib.json","cancellable":false,"percentage":21}},"jsonrpc":"2.0"}Content-Length: 211
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"63/285 apps/checkout/packages/checkout-button-integration/tsconfig.spec.json","cancellable":false,"percentage":22}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"64/285 apps/checkout/packages/core/auto-export.config.json","cancellable":false,"percentage":22}},"jsonrpc":"2.0"}Content-Length: 182
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"65/285 apps/checkout/packages/core/project.json","cancellable":false,"percentage":22}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"66/285 apps/checkout/packages/core/src/app/locale/translations/da.json","cancellable":false,"percentage":23}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"67/285 apps/checkout/packages/core/src/app/locale/translations/de.json","cancellable":false,"percentage":23}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"68/285 apps/checkout/packages/core/src/app/locale/translations/en.json","cancellable":false,"percentage":23}},"jsonrpc":"2.0"}Content-Length: 209
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"69/285 apps/checkout/packages/core/src/app/locale/translations/es-419.json","cancellable":false,"percentage":24}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"70/285 apps/checkout/packages/core/src/app/locale/translations/es-AR.json","cancellable":false,"percentage":24}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"71/285 apps/checkout/packages/core/src/app/locale/translations/es-CL.json","cancellable":false,"percentage":24}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"72/285 apps/checkout/packages/core/src/app/locale/translations/es-CO.json","cancellable":false,"percentage":25}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"73/285 apps/checkout/packages/core/src/app/locale/translations/es-MX.json","cancellable":false,"percentage":25}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"74/285 apps/checkout/packages/core/src/app/locale/translations/es-PE.json","cancellable":false,"percentage":25}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"75/285 apps/checkout/packages/core/src/app/locale/translations/es.json","cancellable":false,"percentage":26}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"76/285 apps/checkout/packages/core/src/app/locale/translations/fr.json","cancellable":false,"percentage":26}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"77/285 apps/checkout/packages/core/src/app/locale/translations/it.json","cancellable":false,"percentage":27}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"78/285 apps/checkout/packages/core/src/app/locale/translations/nl.json","cancellable":false,"percentage":27}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"79/285 apps/checkout/packages/core/src/app/locale/translations/no.json","cancellable":false,"percentage":27}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"80/285 apps/checkout/packages/core/src/app/locale/translations/pt-BR.json","cancellable":false,"percentage":28}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"81/285 apps/checkout/packages/core/src/app/locale/translations/pt.json","cancellable":false,"percentage":28}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"82/285 apps/checkout/packages/core/src/app/locale/translations/sv.json","cancellable":false,"percentage":28}},"jsonrpc":"2.0"}Content-Length: 183
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"83/285 apps/checkout/packages/core/tsconfig.json","cancellable":false,"percentage":29}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"84/285 apps/checkout/packages/core/tsconfig.spec.json","cancellable":false,"percentage":29}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"85/285 apps/checkout/packages/google-pay-integration/project.json","cancellable":false,"percentage":29}},"jsonrpc":"2.0"}Content-Length: 201
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"86/285 apps/checkout/packages/google-pay-integration/tsconfig.json","cancellable":false,"percentage":30}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"87/285 apps/checkout/packages/google-pay-integration/tsconfig.lib.json","cancellable":false,"percentage":30}},"jsonrpc":"2.0"}Content-Length: 206
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"88/285 apps/checkout/packages/google-pay-integration/tsconfig.spec.json","cancellable":false,"percentage":30}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"89/285 apps/checkout/packages/hosted-credit-card-integration/project.json","cancellable":false,"percentage":31}},"jsonrpc":"2.0"}Content-Length: 209
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"90/285 apps/checkout/packages/hosted-credit-card-integration/tsconfig.json","cancellable":false,"percentage":31}},"jsonrpc":"2.0"}Content-Length: 213
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"91/285 apps/checkout/packages/hosted-credit-card-integration/tsconfig.lib.json","cancellable":false,"percentage":31}},"jsonrpc":"2.0"}Content-Length: 214
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"92/285 apps/checkout/packages/hosted-credit-card-integration/tsconfig.spec.json","cancellable":false,"percentage":32}},"jsonrpc":"2.0"}Content-Length: 202
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"93/285 apps/checkout/packages/hosted-field-integration/project.json","cancellable":false,"percentage":32}},"jsonrpc":"2.0"}Content-Length: 203
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"94/285 apps/checkout/packages/hosted-field-integration/tsconfig.json","cancellable":false,"percentage":32}},"jsonrpc":"2.0"}Content-Length: 207
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"95/285 apps/checkout/packages/hosted-field-integration/tsconfig.lib.json","cancellable":false,"percentage":33}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"96/285 apps/checkout/packages/hosted-field-integration/tsconfig.spec.json","cancellable":false,"percentage":33}},"jsonrpc":"2.0"}Content-Length: 203
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"97/285 apps/checkout/packages/hosted-widget-integration/project.json","cancellable":false,"percentage":34}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"98/285 apps/checkout/packages/hosted-widget-integration/tsconfig.json","cancellable":false,"percentage":34}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"99/285 apps/checkout/packages/hosted-widget-integration/tsconfig.lib.json","cancellable":false,"percentage":34}},"jsonrpc":"2.0"}Content-Length: 210
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"100/285 apps/checkout/packages/hosted-widget-integration/tsconfig.spec.json","cancellable":false,"percentage":35}},"jsonrpc":"2.0"}Content-Length: 185
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"101/285 apps/checkout/packages/locale/project.json","cancellable":false,"percentage":35}},"jsonrpc":"2.0"}Content-Length: 184
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"102/285 apps/checkout/packages/locale/src/en.json","cancellable":false,"percentage":35}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"103/285 apps/checkout/packages/locale/tsconfig.json","cancellable":false,"percentage":36}},"jsonrpc":"2.0"}Content-Length: 190
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"104/285 apps/checkout/packages/locale/tsconfig.lib.json","cancellable":false,"percentage":36}},"jsonrpc":"2.0"}Content-Length: 191
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"105/285 apps/checkout/packages/locale/tsconfig.spec.json","cancellable":false,"percentage":36}},"jsonrpc":"2.0"}Content-Length: 202
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"106/285 apps/checkout/packages/payment-integration-api/project.json","cancellable":false,"percentage":37}},"jsonrpc":"2.0"}Content-Length: 203
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"107/285 apps/checkout/packages/payment-integration-api/tsconfig.json","cancellable":false,"percentage":37}},"jsonrpc":"2.0"}Content-Length: 208
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"108/285 apps/checkout/packages/payment-integration-api/tsconfig.spec.json","cancellable":false,"percentage":37}},"jsonrpc":"2.0"}Content-Length: 213
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"109/285 apps/checkout/packages/payment-integration-test-framework/project.json","cancellable":false,"percentage":38}},"jsonrpc":"2.0"}Content-Length: 214
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"110/285 apps/checkout/packages/payment-integration-test-framework/tsconfig.json","cancellable":false,"percentage":38}},"jsonrpc":"2.0"}Content-Length: 189
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"111/285 apps/checkout/packages/test-utils/project.json","cancellable":false,"percentage":38}},"jsonrpc":"2.0"}Content-Length: 190
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"112/285 apps/checkout/packages/test-utils/tsconfig.json","cancellable":false,"percentage":39}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"113/285 apps/checkout/packages/test-utils/tsconfig.lib.json","cancellable":false,"percentage":39}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"114/285 apps/checkout/packages/test-utils/tsconfig.spec.json","cancellable":false,"percentage":40}},"jsonrpc":"2.0"}Content-Length: 181
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"115/285 apps/checkout/packages/ui/project.json","cancellable":false,"percentage":40}},"jsonrpc":"2.0"}Content-Length: 182
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"116/285 apps/checkout/packages/ui/tsconfig.json","cancellable":false,"percentage":40}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"117/285 apps/checkout/packages/ui/tsconfig.lib.json","cancellable":false,"percentage":41}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"118/285 apps/checkout/packages/ui/tsconfig.spec.json","cancellable":false,"percentage":41}},"jsonrpc":"2.0"}Content-Length: 196
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"119/285 apps/checkout/packages/workspace-tools/executors.json","cancellable":false,"percentage":41}},"jsonrpc":"2.0"}Content-Length: 197
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"120/285 apps/checkout/packages/workspace-tools/generators.json","cancellable":false,"percentage":42}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"121/285 apps/checkout/packages/workspace-tools/package.json","cancellable":false,"percentage":42}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"122/285 apps/checkout/packages/workspace-tools/project.json","cancellable":false,"percentage":42}},"jsonrpc":"2.0"}Content-Length: 235
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"123/285 apps/checkout/packages/workspace-tools/src/generators/auto-export/__fixtures__/tsconfig.json","cancellable":false,"percentage":43}},"jsonrpc":"2.0"}Content-Length: 220
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"124/285 apps/checkout/packages/workspace-tools/src/generators/auto-export/schema.json","cancellable":false,"percentage":43}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"125/285 apps/checkout/packages/workspace-tools/tsconfig.json","cancellable":false,"percentage":43}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"126/285 apps/checkout/packages/workspace-tools/tsconfig.lib.json","cancellable":false,"percentage":44}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"127/285 apps/checkout/packages/workspace-tools/tsconfig.spec.json","cancellable":false,"percentage":44}},"jsonrpc":"2.0"}Content-Length: 175
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"128/285 apps/checkout/tsconfig.base.json","cancellable":false,"percentage":44}},"jsonrpc":"2.0"}Content-Length: 171
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"129/285 apps/checkout/workspace.json","cancellable":false,"percentage":45}},"jsonrpc":"2.0"}Content-Length: 172
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"130/285 apps/web/commerce.config.json","cancellable":false,"percentage":45}},"jsonrpc":"2.0"}Content-Length: 183
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"131/285 apps/web/customtypes/about_us/index.json","cancellable":false,"percentage":45}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"132/285 apps/web/customtypes/account_auth_page/index.json","cancellable":false,"percentage":46}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"133/285 apps/web/customtypes/awards_page/index.json","cancellable":false,"percentage":46}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"134/285 apps/web/customtypes/content_page/index.json","cancellable":false,"percentage":47}},"jsonrpc":"2.0"}Content-Length: 183
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"135/285 apps/web/customtypes/delivery/index.json","cancellable":false,"percentage":47}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"136/285 apps/web/customtypes/desktop_navigation/index.json","cancellable":false,"percentage":47}},"jsonrpc":"2.0"}Content-Length: 181
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"137/285 apps/web/customtypes/footer/index.json","cancellable":false,"percentage":48}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"138/285 apps/web/customtypes/hiking_hub_article/index.json","cancellable":false,"percentage":48}},"jsonrpc":"2.0"}Content-Length: 183
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"139/285 apps/web/customtypes/homepage/index.json","cancellable":false,"percentage":48}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"140/285 apps/web/customtypes/homepage_v2/index.json","cancellable":false,"percentage":49}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"141/285 apps/web/customtypes/hub_article_category/index.json","cancellable":false,"percentage":49}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"142/285 apps/web/customtypes/landing_page/index.json","cancellable":false,"percentage":49}},"jsonrpc":"2.0"}Content-Length: 190
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"143/285 apps/web/customtypes/landing_page_v2/index.json","cancellable":false,"percentage":50}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"144/285 apps/web/customtypes/mobile_navigation/index.json","cancellable":false,"percentage":50}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"145/285 apps/web/customtypes/navigation_category/index.json","cancellable":false,"percentage":50}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"146/285 apps/web/customtypes/password_recovery/index.json","cancellable":false,"percentage":51}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"147/285 apps/web/customtypes/payment_providers/index.json","cancellable":false,"percentage":51}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"148/285 apps/web/customtypes/product_display_page/index.json","cancellable":false,"percentage":51}},"jsonrpc":"2.0"}Content-Length: 182
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"149/285 apps/web/customtypes/returns/index.json","cancellable":false,"percentage":52}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"150/285 apps/web/customtypes/running_hub_article/index.json","cancellable":false,"percentage":52}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"151/285 apps/web/customtypes/sub_category/index.json","cancellable":false,"percentage":52}},"jsonrpc":"2.0"}Content-Length: 189
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"152/285 apps/web/customtypes/sustainability/index.json","cancellable":false,"percentage":53}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"153/285 apps/web/customtypes/trail_hub_article/index.json","cancellable":false,"percentage":53}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"154/285 apps/web/customtypes/training_hub_article/index.json","cancellable":false,"percentage":54}},"jsonrpc":"2.0"}Content-Length: 189
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"155/285 apps/web/customtypes/ultra_benefits/index.json","cancellable":false,"percentage":54}},"jsonrpc":"2.0"}Content-Length: 191
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"156/285 apps/web/customtypes/ultra_membership/index.json","cancellable":false,"percentage":54}},"jsonrpc":"2.0"}Content-Length: 182
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"157/285 apps/web/customtypes/usp_bar/index.json","cancellable":false,"percentage":55}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"158/285 apps/web/customtypes/welcome_page/index.json","cancellable":false,"percentage":55}},"jsonrpc":"2.0"}Content-Length: 164
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"159/285 apps/web/package.json","cancellable":false,"percentage":55}},"jsonrpc":"2.0"}Content-Length: 184
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"160/285 apps/web/public/locales/de-DE/common.json","cancellable":false,"percentage":56}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"161/285 apps/web/public/locales/de-DE/navigation.json","cancellable":false,"percentage":56}},"jsonrpc":"2.0"}Content-Length: 184
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"162/285 apps/web/public/locales/en-GB/common.json","cancellable":false,"percentage":56}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"163/285 apps/web/public/locales/en-GB/navigation.json","cancellable":false,"percentage":57}},"jsonrpc":"2.0"}Content-Length: 184
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"164/285 apps/web/public/locales/es-ES/common.json","cancellable":false,"percentage":57}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"165/285 apps/web/public/locales/es-ES/navigation.json","cancellable":false,"percentage":57}},"jsonrpc":"2.0"}Content-Length: 184
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"166/285 apps/web/public/locales/fr-FR/common.json","cancellable":false,"percentage":58}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"167/285 apps/web/public/locales/fr-FR/navigation.json","cancellable":false,"percentage":58}},"jsonrpc":"2.0"}Content-Length: 184
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"168/285 apps/web/public/locales/it-IT/common.json","cancellable":false,"percentage":58}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"169/285 apps/web/public/locales/it-IT/navigation.json","cancellable":false,"percentage":59}},"jsonrpc":"2.0"}Content-Length: 159
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"170/285 apps/web/sm.json","cancellable":false,"percentage":59}},"jsonrpc":"2.0"}Content-Length: 176
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"171/285 apps/web/src/config/seo_meta.json","cancellable":false,"percentage":60}},"jsonrpc":"2.0"}Content-Length: 174
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"172/285 apps/web/src/config/stores.json","cancellable":false,"percentage":60}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"173/285 apps/web/src/slices/article/ArticleBodySection/mocks.json","cancellable":false,"percentage":60}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"174/285 apps/web/src/slices/article/ArticleBodySection/model.json","cancellable":false,"percentage":61}},"jsonrpc":"2.0"}Content-Length: 201
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"175/285 apps/web/src/slices/article/ArticleContentLinks/mocks.json","cancellable":false,"percentage":61}},"jsonrpc":"2.0"}Content-Length: 201
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"176/285 apps/web/src/slices/article/ArticleContentLinks/model.json","cancellable":false,"percentage":61}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"177/285 apps/web/src/slices/article/ArticleMap/mocks.json","cancellable":false,"percentage":62}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"178/285 apps/web/src/slices/article/ArticleMap/model.json","cancellable":false,"percentage":62}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"179/285 apps/web/src/slices/article/ArticleTable/mocks.json","cancellable":false,"percentage":62}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"180/285 apps/web/src/slices/article/ArticleTable/model.json","cancellable":false,"percentage":63}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"181/285 apps/web/src/slices/common/ContentFlex/mocks.json","cancellable":false,"percentage":63}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"182/285 apps/web/src/slices/common/ContentFlex/model.json","cancellable":false,"percentage":63}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"183/285 apps/web/src/slices/common/CountdownTimer/mocks.json","cancellable":false,"percentage":64}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"184/285 apps/web/src/slices/common/CountdownTimer/model.json","cancellable":false,"percentage":64}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"185/285 apps/web/src/slices/common/CtaButtonBlock/mocks.json","cancellable":false,"percentage":64}},"jsonrpc":"2.0"}Content-Length: 195
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"186/285 apps/web/src/slices/common/CtaButtonBlock/model.json","cancellable":false,"percentage":65}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"187/285 apps/web/src/slices/common/ImageBanner/mocks.json","cancellable":false,"percentage":65}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"188/285 apps/web/src/slices/common/ImageBanner/model.json","cancellable":false,"percentage":65}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"189/285 apps/web/src/slices/common/ImageBannerCarousel/mocks.json","cancellable":false,"percentage":66}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"190/285 apps/web/src/slices/common/ImageBannerCarousel/model.json","cancellable":false,"percentage":66}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"191/285 apps/web/src/slices/common/ImageCarousel/mocks.json","cancellable":false,"percentage":67}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"192/285 apps/web/src/slices/common/ImageCarousel/model.json","cancellable":false,"percentage":67}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"193/285 apps/web/src/slices/common/NotMemberYet/mocks.json","cancellable":false,"percentage":67}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"194/285 apps/web/src/slices/common/NotMemberYet/model.json","cancellable":false,"percentage":68}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"195/285 apps/web/src/slices/common/OneToTwoContentFlexStack/mocks.json","cancellable":false,"percentage":68}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"196/285 apps/web/src/slices/common/OneToTwoContentFlexStack/model.json","cancellable":false,"percentage":68}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"197/285 apps/web/src/slices/common/SectionHeader/mocks.json","cancellable":false,"percentage":69}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"198/285 apps/web/src/slices/common/SectionHeader/model.json","cancellable":false,"percentage":69}},"jsonrpc":"2.0"}Content-Length: 197
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"199/285 apps/web/src/slices/common/StoreBodySection/mocks.json","cancellable":false,"percentage":69}},"jsonrpc":"2.0"}Content-Length: 197
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"200/285 apps/web/src/slices/common/StoreBodySection/model.json","cancellable":false,"percentage":70}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"201/285 apps/web/src/slices/common/UltraBenefitBanner/mocks.json","cancellable":false,"percentage":70}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"202/285 apps/web/src/slices/common/UltraBenefitBanner/model.json","cancellable":false,"percentage":70}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"203/285 apps/web/src/slices/common/UltraCarousel/mocks.json","cancellable":false,"percentage":71}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"204/285 apps/web/src/slices/common/UltraCarousel/model.json","cancellable":false,"percentage":71}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"205/285 apps/web/src/slices/common/UltraSupport/mocks.json","cancellable":false,"percentage":71}},"jsonrpc":"2.0"}Content-Length: 193
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"206/285 apps/web/src/slices/common/UltraSupport/model.json","cancellable":false,"percentage":72}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"207/285 apps/web/src/slices/common/Video/mocks.json","cancellable":false,"percentage":72}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"208/285 apps/web/src/slices/common/Video/model.json","cancellable":false,"percentage":72}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"209/285 apps/web/src/slices/common/VideoBanner/mocks.json","cancellable":false,"percentage":73}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"210/285 apps/web/src/slices/common/VideoBanner/model.json","cancellable":false,"percentage":73}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"211/285 apps/web/src/slices/footer/FooterLinks/mocks.json","cancellable":false,"percentage":74}},"jsonrpc":"2.0"}Content-Length: 192
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"212/285 apps/web/src/slices/footer/FooterLinks/model.json","cancellable":false,"percentage":74}},"jsonrpc":"2.0"}Content-Length: 196
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"213/285 apps/web/src/slices/home/HomeBottomSection/mocks.json","cancellable":false,"percentage":74}},"jsonrpc":"2.0"}Content-Length: 196
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"214/285 apps/web/src/slices/home/HomeBottomSection/model.json","cancellable":false,"percentage":75}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"215/285 apps/web/src/slices/home/HomeBottomSectionV2/mocks.json","cancellable":false,"percentage":75}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"216/285 apps/web/src/slices/home/HomeBottomSectionV2/model.json","cancellable":false,"percentage":75}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"217/285 apps/web/src/slices/home/HomeCountdownV2/mocks.json","cancellable":false,"percentage":76}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"218/285 apps/web/src/slices/home/HomeCountdownV2/model.json","cancellable":false,"percentage":76}},"jsonrpc":"2.0"}Content-Length: 202
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"219/285 apps/web/src/slices/home/HomeFeaturedCollections/mocks.json","cancellable":false,"percentage":76}},"jsonrpc":"2.0"}Content-Length: 202
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"220/285 apps/web/src/slices/home/HomeFeaturedCollections/model.json","cancellable":false,"percentage":77}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"221/285 apps/web/src/slices/home/HomeFeaturedCollectionsV2/mocks.json","cancellable":false,"percentage":77}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"222/285 apps/web/src/slices/home/HomeFeaturedCollectionsV2/model.json","cancellable":false,"percentage":77}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"223/285 apps/web/src/slices/home/HomeProductCarousel/mocks.json","cancellable":false,"percentage":78}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"224/285 apps/web/src/slices/home/HomeProductCarousel/model.json","cancellable":false,"percentage":78}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"225/285 apps/web/src/slices/home/HomeProductCarouselV2/mocks.json","cancellable":false,"percentage":78}},"jsonrpc":"2.0"}Content-Length: 200
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"226/285 apps/web/src/slices/home/HomeProductCarouselV2/model.json","cancellable":false,"percentage":79}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"227/285 apps/web/src/slices/home/HomePromotedArticles/mocks.json","cancellable":false,"percentage":79}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"228/285 apps/web/src/slices/home/HomePromotedArticles/model.json","cancellable":false,"percentage":80}},"jsonrpc":"2.0"}Content-Length: 201
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"229/285 apps/web/src/slices/home/HomePromotedArticlesV2/mocks.json","cancellable":false,"percentage":80}},"jsonrpc":"2.0"}Content-Length: 201
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"230/285 apps/web/src/slices/home/HomePromotedArticlesV2/model.json","cancellable":false,"percentage":80}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"231/285 apps/web/src/slices/home/HomeTiles/mocks.json","cancellable":false,"percentage":81}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"232/285 apps/web/src/slices/home/HomeTiles/model.json","cancellable":false,"percentage":81}},"jsonrpc":"2.0"}Content-Length: 190
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"233/285 apps/web/src/slices/home/HomeTilesV2/mocks.json","cancellable":false,"percentage":81}},"jsonrpc":"2.0"}Content-Length: 190
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"234/285 apps/web/src/slices/home/HomeTilesV2/model.json","cancellable":false,"percentage":82}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"235/285 apps/web/src/slices/home/HomeVideoBanner/mocks.json","cancellable":false,"percentage":82}},"jsonrpc":"2.0"}Content-Length: 194
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"236/285 apps/web/src/slices/home/HomeVideoBanner/model.json","cancellable":false,"percentage":82}},"jsonrpc":"2.0"}Content-Length: 196
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"237/285 apps/web/src/slices/home/HomeVideoBannerV2/mocks.json","cancellable":false,"percentage":83}},"jsonrpc":"2.0"}Content-Length: 196
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"238/285 apps/web/src/slices/home/HomeVideoBannerV2/model.json","cancellable":false,"percentage":83}},"jsonrpc":"2.0"}Content-Length: 202
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"239/285 apps/web/src/slices/productPage/EditorialSection/mocks.json","cancellable":false,"percentage":83}},"jsonrpc":"2.0"}Content-Length: 202
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"240/285 apps/web/src/slices/productPage/EditorialSection/model.json","cancellable":false,"percentage":84}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"241/285 apps/web/src/slices/productPage/KeyDetailCard/mocks.json","cancellable":false,"percentage":84}},"jsonrpc":"2.0"}Content-Length: 199
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"242/285 apps/web/src/slices/productPage/KeyDetailCard/model.json","cancellable":false,"percentage":84}},"jsonrpc":"2.0"}Content-Length: 196
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"243/285 apps/web/src/slices/productPage/MultiImage/mocks.json","cancellable":false,"percentage":85}},"jsonrpc":"2.0"}Content-Length: 196
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"244/285 apps/web/src/slices/productPage/MultiImage/model.json","cancellable":false,"percentage":85}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"245/285 apps/web/src/slices/productPage/VideoSection/mocks.json","cancellable":false,"percentage":85}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"246/285 apps/web/src/slices/productPage/VideoSection/model.json","cancellable":false,"percentage":86}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"247/285 apps/web/src/slices/seo/Metadata/mocks.json","cancellable":false,"percentage":86}},"jsonrpc":"2.0"}Content-Length: 186
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"248/285 apps/web/src/slices/seo/Metadata/model.json","cancellable":false,"percentage":87}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"249/285 apps/web/src/slices/seo/OpenGraph/mocks.json","cancellable":false,"percentage":87}},"jsonrpc":"2.0"}Content-Length: 187
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"250/285 apps/web/src/slices/seo/OpenGraph/model.json","cancellable":false,"percentage":87}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"251/285 apps/web/src/slices/sustainability/FlexAndSideText/mocks.json","cancellable":false,"percentage":88}},"jsonrpc":"2.0"}Content-Length: 204
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"252/285 apps/web/src/slices/sustainability/FlexAndSideText/model.json","cancellable":false,"percentage":88}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"253/285 apps/web/src/slices/sustainability/FootPrint/mocks.json","cancellable":false,"percentage":88}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"254/285 apps/web/src/slices/sustainability/FootPrint/model.json","cancellable":false,"percentage":89}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"255/285 apps/web/src/slices/sustainability/ImageOverlapFlex/mocks.json","cancellable":false,"percentage":89}},"jsonrpc":"2.0"}Content-Length: 205
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"256/285 apps/web/src/slices/sustainability/ImageOverlapFlex/model.json","cancellable":false,"percentage":89}},"jsonrpc":"2.0"}Content-Length: 201
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"257/285 apps/web/src/slices/sustainability/OverflowFlex/mocks.json","cancellable":false,"percentage":90}},"jsonrpc":"2.0"}Content-Length: 201
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"258/285 apps/web/src/slices/sustainability/OverflowFlex/model.json","cancellable":false,"percentage":90}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"259/285 apps/web/src/slices/sustainability/VideoCard/mocks.json","cancellable":false,"percentage":90}},"jsonrpc":"2.0"}Content-Length: 198
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"260/285 apps/web/src/slices/sustainability/VideoCard/model.json","cancellable":false,"percentage":91}},"jsonrpc":"2.0"}Content-Length: 165
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"261/285 apps/web/tsconfig.json","cancellable":false,"percentage":91}},"jsonrpc":"2.0"}Content-Length: 155
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"262/285 package.json","cancellable":false,"percentage":91}},"jsonrpc":"2.0"}Content-Length: 176
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"263/285 packages/bigcommerce/codegen.json","cancellable":false,"percentage":92}},"jsonrpc":"2.0"}Content-Length: 189
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"264/285 packages/bigcommerce/dist/commerce.config.json","cancellable":false,"percentage":92}},"jsonrpc":"2.0"}Content-Length: 176
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"265/285 packages/bigcommerce/package.json","cancellable":false,"percentage":92}},"jsonrpc":"2.0"}Content-Length: 188
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"266/285 packages/bigcommerce/src/commerce.config.json","cancellable":false,"percentage":93}},"jsonrpc":"2.0"}Content-Length: 177
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"267/285 packages/bigcommerce/tsconfig.json","cancellable":false,"percentage":93}},"jsonrpc":"2.0"}Content-Length: 173
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"268/285 packages/commerce/package.json","cancellable":false,"percentage":94}},"jsonrpc":"2.0"}Content-Length: 174
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"269/285 packages/commerce/tsconfig.json","cancellable":false,"percentage":94}},"jsonrpc":"2.0"}Content-Length: 185
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"270/285 packages/eslint-config-custom/package.json","cancellable":false,"percentage":94}},"jsonrpc":"2.0"}Content-Length: 181
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"271/285 packages/google-analytics/package.json","cancellable":false,"percentage":95}},"jsonrpc":"2.0"}Content-Length: 182
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"272/285 packages/google-analytics/tsconfig.json","cancellable":false,"percentage":95}},"jsonrpc":"2.0"}Content-Length: 181
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"273/285 packages/storybook-config/package.json","cancellable":false,"percentage":95}},"jsonrpc":"2.0"}Content-Length: 174
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"274/285 packages/taskr-swc/package.json","cancellable":false,"percentage":96}},"jsonrpc":"2.0"}Content-Length: 170
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"275/285 packages/tsconfig/base.json","cancellable":false,"percentage":96}},"jsonrpc":"2.0"}Content-Length: 174
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"276/285 packages/tsconfig/commerce.json","cancellable":false,"percentage":96}},"jsonrpc":"2.0"}Content-Length: 172
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"277/285 packages/tsconfig/nextjs.json","cancellable":false,"percentage":97}},"jsonrpc":"2.0"}Content-Length: 173
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"278/285 packages/tsconfig/package.json","cancellable":false,"percentage":97}},"jsonrpc":"2.0"}Content-Length: 179
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"279/285 packages/tsconfig/react-library.json","cancellable":false,"percentage":97}},"jsonrpc":"2.0"}Content-Length: 167
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"280/285 packages/ui/package.json","cancellable":false,"percentage":98}},"jsonrpc":"2.0"}Content-Length: 175
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"281/285 packages/ui/tsconfig.eslint.json","cancellable":false,"percentage":98}},"jsonrpc":"2.0"}Content-Length: 168
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"282/285 packages/ui/tsconfig.json","cancellable":false,"percentage":98}},"jsonrpc":"2.0"}Content-Length: 156
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"283/285 tsconfig.json","cancellable":false,"percentage":99}},"jsonrpc":"2.0"}Content-Length: 153
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"report","message":"284/285 turbo.json","cancellable":false,"percentage":99}},"jsonrpc":"2.0"}Content-Length: 122
+
+{"method":"$/progress","params":{"token":2,"value":{"kind":"end","message":"Found 28 offenses in 0.19s"}},"jsonrpc":"2.0"}Found 28 offenses in 0.19s
+Content-Length: 38
+
+{"id":3,"result":null,"jsonrpc":"2.0"}rescuing ThemeCheck::LanguageServer::DoneStreaming in handler thread
+[15080] Closing server... status code = 0

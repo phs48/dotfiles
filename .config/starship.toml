@@ -1,0 +1,115 @@
+format = """
+$username\
+$hostname\
+$directory\
+$fill\
+$all\
+$character"""
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+command_timeout = 2000
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[character]
+success_symbol = "[•](bold green)"
+error_symbol = "[•](bold red)"
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
+# truncation_symbol = "…/"
+home_symbol = " "
+# fish_style_pwd_dir_length = 1
+style = "bg:blue fg:black"
+format = "[ $path ]($style) "
+repo_root_format = "[$before_root_path]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+
+[directory.substitutions]
+# "Code" = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fill]
+symbol = "·"
+style = "#44475a"
+
+[git_branch]
+format = " [$symbol$branch(:$remote_branch)]($style) "
+symbol = " "
+
+[git_metrics]
+disabled = true 
+
+[git_status]
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+staged = '[+$count](green)'
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[python]
+symbol = " "
+
+[spack]
+symbol = "🅢 "
+
+[rust]
+symbol = " "
+
+[username]
+format = "[ $user ]($style)"
+style_root = "bg:bright-red fg:black"
